@@ -56,7 +56,8 @@
 ### To enable worker nodes to join your cluster
 1. Create a file aws-auth-cm.yaml , copy the below config and replace ```<ARN of instance role (not instance profile)>```
 
-```
+```yaml
+---
 apiVersion: v1
 kind: ConfigMap
 metadata:
